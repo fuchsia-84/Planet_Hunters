@@ -408,14 +408,17 @@ footer .wrapper {
     background-color: var(--bg-color);
 }
 footer ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 100%;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 footer ul li {
     display: inline-block;
+    height: 30px;
+    vertical-align: top;
 }
 footer p {
     font-family: var(--accent-font);
