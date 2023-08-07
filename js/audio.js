@@ -10,10 +10,10 @@ function disableMute() {
 
 $(function(){
     $audio_button.click(function(){
-    $audio_button.toggleClass('active');
+        $audio_button.toggleClass('active');
     
-    if($this.hasClass('active') ) {
-        $this.css('display', 'none');
-    }
-  });
+        if($this.hasClass('active') ) {
+            $this.css('display', 'none');
+        }
+    });
 });
