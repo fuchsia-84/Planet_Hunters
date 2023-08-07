@@ -338,7 +338,9 @@ a#header_link {
 }
 .story .wrapper {
     padding-bottom: 43px;
-    background: var(--bg-color);
+    background-image: url(../assets/img/bg_story.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 .story_contents {
     display: flex;
