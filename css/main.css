@@ -417,7 +417,7 @@ a#header_link {
     display: block;
     position: absolute;
     top: 66px;
-    right: 41px;
+    right: 0;
     z-index: 20;
 }
 #audio_control button {
@@ -430,9 +430,16 @@ a#header_link {
     color: var(--audio-color);
     background: transparent;
     border: none;
+    padding: 0;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
 }
 #audio_control button.active {
     display: none;
+}
+#audio_control button i {
+    margin-left: 6px;
 }
 /*story*/
 .story {

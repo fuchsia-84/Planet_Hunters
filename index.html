@@ -80,8 +80,8 @@
                 <audio id="bgm" preload autoplay loop muted>
                     <source src="./assets/audio/cinematic-melody-main-9785.mp3" type="audio/mpeg">
                 </audio>
-                <button onclick="enableMute()" class="active" id="sound_off" type="button">SOUND OFF</button>
-                <button onclick="disableMute()" class="on" id="sound_on" type="button">SOUND ON</button>
+                <button onclick="enableMute()" class="active" id="sound_off" type="button">SOUND OFF<i class="fa-solid fa-volume-high"></i></button>
+                <button onclick="disableMute()" class="on" id="sound_on" type="button">SOUND ON<i class="fa-solid fa-volume-xmark"></i></button>
             </div>
             <!-- //Audio-->
         </div>
@@ -210,6 +210,8 @@
     <!-- FaceBook -->
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v17.0&appId=1067538674229696&autoLogAppEvents=1" nonce="RcsFCvRz"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/daf9a3f0e8.js" crossorigin="anonymous"></script>
     <!-- Script -->
     <script src="./js/loading.js" ></script>
     <script src="./js/audio.js" ></script>
