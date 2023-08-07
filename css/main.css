@@ -404,6 +404,16 @@ footer .wrapper {
     padding: 50px 0 20px;
     background-color: var(--bg-color);
 }
+footer ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+}
 footer p {
     font-family: var(--accent-font);
     font-size: 11px;
