@@ -399,3 +399,25 @@ a#header_link {
 .trailer .wrapper {
     background-color: var(--main-color);
 }
+/*footer*/
+footer .wrapper {
+    padding: 50px 0 20px;
+    background-color: var(--bg-color);
+}
+footer p {
+    font-family: var(--accent-font);
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto 44px;
+}
+a#footer_link {
+    width: 100%;
+}
+@media screen and (min-width: 600px) {
+    a#footer_link {
+        display: none;
+    }
+}
