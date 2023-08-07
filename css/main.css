@@ -12,6 +12,7 @@
     display: block;
     width: 100%;
     margin: 0 auto;
+    padding: 50px 0;
 }
 .wrapper:after {
     content: "";
@@ -30,6 +31,25 @@
 }
 .br_pc {
     display: none;
+}
+.section_title {
+    color: var(--main-color);
+    font-family: var(--accent-font);
+    margin-bottom: 30px;
+}
+.section_title h1 {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+.section_title span {
+    display: block;
+    width: 60px;
+    height: 6px;
+    background-color: var(--main-color);
+    margin-top: 15px;
+
 }
 .play_btn {
     display: block;
@@ -299,10 +319,36 @@ a#header_link {
 .story {
     position: relative;
     z-index: 1;
-    
-    /*padding: 600px 0;*/
 }
 .story .wrapper {
-    padding: 600px 0;
+    padding-bottom: 43px;
     background: var(--bg-color);
+}
+.story_contents {
+    display: flex;
+    flex-wrap: wrap;
+}
+.story_contents .item {
+    margin-top: 53px;
+}
+.story_contents .item:first-of-type {
+    margin-top: 0;
+}
+.story_contents .text {
+    letter-spacing: 0.05em;
+}
+.story_contents h1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.story_contents p {
+    font-size: 15px;
+    line-height: 27px;
+}
+.story_contents img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    box-shadow: 7px 7px 0px 0px var(--main-color);
 }
