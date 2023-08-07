@@ -152,6 +152,7 @@ body {
     font-family: var(--accent-font);
     position: fixed;
     background-color: transparent;
+    z-index: 900;
 }
 #header .inner {
     position: relative;
@@ -206,16 +207,29 @@ a#header_link {
     height: 100vh;
     min-height: 845px;
 }
-.top::before {
-    content: '';
+.bgParallax {
     position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
     width: 100%;
     height: 100vh;
-    background: url(../assets/img/bg_story.jpg);
-    background-size: cover;
+}
+.bgParallax::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( 45deg, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.5) 50% );
+    background-size: 4px 4px;
+}
+.bgParallax-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 .top .inner {
     position: relative;
