@@ -382,3 +382,20 @@ a#header_link {
 .fight a {
     margin: 20px auto 0;
 }
+/*trailer*/
+.trailer .section_title {
+    color: var(--bg-color);
+    background-color: var(--main-color);
+}
+.trailer .section_title span {
+    background-color: var(--bg-color);
+}
+.trailer .top_line_content {
+    fill: var(--main-color);
+}
+.trailer .bottom_line_content {
+    fill: var(--main-color);
+}
+.trailer .wrapper {
+    background-color: var(--main-color);
+}
