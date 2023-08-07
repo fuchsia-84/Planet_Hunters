@@ -462,8 +462,17 @@ a#header_link {
 .story_contents .item:first-of-type {
     margin-top: 0;
 }
+.story_contents .item img {
+    width: 85%;
+    margin: 0 auto;
+}
 .story_contents .item:nth-of-type(even) img {
     box-shadow: -7px 7px 0px 0px var(--main-color);
+    transform: skew(6deg, 0);
+}
+.story_contents .item:nth-of-type(odd) img {
+    box-shadow: 7px 7px 0px 0px var(--main-color);
+    transform: skew(-6deg, 0);
 }
 .story_contents .text {
     letter-spacing: 0.05em;
@@ -476,12 +485,11 @@ a#header_link {
 .story_contents p {
     font-size: 15px;
     line-height: 27px;
+    margin-bottom: 30px;
 }
 .story_contents img {
-    width: 100%;
+    width: 85%;
     height: auto;
-    margin-top: 30px;
-    box-shadow: 7px 7px 0px 0px var(--main-color);
 }
 /*fight*/
 .fight {
