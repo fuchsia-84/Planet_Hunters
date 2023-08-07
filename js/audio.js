@@ -1,19 +1,17 @@
-let el = document.getElementById("bgm");
+const audio = document.querySelector("#bgm");
 var $audio_button = $('#audio_control button');
-function enableMute() {
-    el.muted = true;
+
+audio.pause();
+
+function pause() {
+    audio.pause();
 }
 
-function disableMute() {
-    el.muted = false;
+function play() {
+    audio.play();
 }
-
 $(function(){
-    $audio_button.click(function(){
+    $audio_button.click(function() {
         $audio_button.toggleClass('active');
-    
-        if($this.hasClass('active') ) {
-            $this.css('display', 'none');
-        }
     });
 });
