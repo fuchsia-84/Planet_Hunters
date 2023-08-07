@@ -1,0 +1,9 @@
+$(function(){
+    $(window).on('load',function(){
+        $('.loader').delay(500).fadeOut(500);
+        $('.loader_bg').delay(800).fadeOut(700);
+    });
+    setTimeout(function(){
+        $('.loader_bg').fadeOut(500);
+    },5000);
+});
