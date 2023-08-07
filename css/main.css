@@ -7,6 +7,7 @@
     --bg-color: #000;
     --main-font: 'Noto Sans JP', sans-serif;
     --accent-font: 'EXO', sans-serif;
+    --audio-color: #bfbfbf;
 }
 .wrapper {
     display: block;
@@ -411,7 +412,28 @@ a#header_link {
     font-weight: 500;
     margin-bottom: 30px;
 }
-
+/*audio*/
+#audio_control {
+    display: block;
+    position: absolute;
+    top: 66px;
+    right: 41px;
+    z-index: 20;
+}
+#audio_control button {
+    font-family: var(--accent-font);
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0;
+    margin: 0;
+    color: var(--audio-color);
+    background: transparent;
+    border: none;
+}
+#audio_control button.active {
+    display: none;
+}
 /*story*/
 .story {
     position: relative;
