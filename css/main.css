@@ -350,6 +350,9 @@ a#header_link {
 .story_contents .item:first-of-type {
     margin-top: 0;
 }
+.story_contents .item:nth-of-type(even) img {
+    box-shadow: -7px 7px 0px 0px var(--main-color);
+}
 .story_contents .text {
     letter-spacing: 0.05em;
 }
