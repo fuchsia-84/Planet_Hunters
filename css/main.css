@@ -544,6 +544,14 @@ a#header_link {
 #audio_control button i {
     margin-left: 6px;
 }
+@media screen and (min-width: 1025px) {
+    #audio_control {
+        top: 90px;
+    }
+    #audio_control button i {
+        margin-left: 8px;
+    }
+}
 /*story*/
 .story {
     position: relative;
