@@ -67,12 +67,24 @@
 }
 @media screen and (min-width: 1025px) {
     .inner {
-        width: calc(100% - 60px);
+        width: calc(100% - 320px);
     }
     .play_btn {
         font-size: 18px;
         line-height: 20px;
         width: 230px;
+    }
+    .section_title {
+        margin-bottom: 40px;
+    }
+    .section_title h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .section_title span {
+        width: 80px;
+        height: 8px;
+        margin-top: 30px;
     }
 }
 /*scroll*/
@@ -352,6 +364,7 @@ body {
     z-index: 900;
 }
 #header .inner {
+    width: calc(100% - 60px);
     position: relative;
 }
 a#header_logo {
@@ -495,6 +508,9 @@ a#header_link {
     margin-bottom: 30px;
 }
 @media screen and (min-width: 1025px) {
+    .top .inner {
+        width: calc(100% - 60px);
+    }
     .top_contents {
         width: calc(100% - 320px);
         height: 564px;
@@ -575,6 +591,7 @@ a#header_link {
 }
 .story_contents .item img {
     width: 85%;
+    height: auto;
     margin: 0 auto;
 }
 .story_contents .item:nth-of-type(even) img {
@@ -598,9 +615,45 @@ a#header_link {
     line-height: 27px;
     margin-bottom: 30px;
 }
-.story_contents img {
-    width: 85%;
-    height: auto;
+@media screen and (min-width: 1025px) {
+    .story .wrapper {
+        padding-top: 158px;
+        padding-bottom: 123px;
+    }
+    .story .item {
+        display: flex;
+    }
+    .story .item:nth-of-type(even) {
+        flex-direction: row-reverse;
+    }
+    .story_contents .text {
+        width: 60%;
+    }
+    .story_contents .item img {
+        width: 40%;
+        height: auto;
+        align-self: flex-start;
+    }
+    .story_contents .text h1 {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+    .story_contents .text p {
+        margin-bottom: 123px;
+        font-size: 16px;
+        line-height: 26.8px;
+    }
+    .story_contents .item:nth-of-type(odd) .text {
+        padding-right: 80px;
+    }
+    .story_contents .item:nth-of-type(odd) img {
+        margin-top: -150px;
+    }
+    .story_contents .item:nth-of-type(even) .text {
+        padding-left: 80px;
+        margin-top: 93px;
+    }
 }
 /*fight*/
 .fight {
