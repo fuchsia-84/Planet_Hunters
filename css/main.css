@@ -663,11 +663,22 @@ a#header_link {
 .fight h1 {
     font-family: var(--accent-font);
     font-size: 32px;
-    line-height: 32px;
+    line-height: 1.0em;
     letter-spacing: 0.05em;
 }
 .fight a {
     margin: 20px auto 0;
+}
+@media screen and (min-width: 1025px) {
+    .fight {
+        padding: 100px 0;
+    }
+    .fight h1 {
+        font-size: 64px;
+    }
+    .fight a {
+        margin-top: 25px;
+    }
 }
 /*trailer*/
 .trailer .iframe_wrapper {
