@@ -68,6 +68,7 @@
 @media screen and (min-width: 1025px) {
     .inner {
         width: calc(100% - 320px);
+        max-width: 1110px;
     }
     .play_btn {
         font-size: 18px;
