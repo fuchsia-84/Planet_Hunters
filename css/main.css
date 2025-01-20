@@ -43,6 +43,7 @@
     line-height: 50px;
     letter-spacing: 0.05em;
     font-weight: bold;
+    text-transform: uppercase;
 }
 .section_title span {
     display: block;
@@ -64,6 +65,7 @@
     letter-spacing: 0.05em;
     padding: 20px 0;
     background-color: var(--main-color);
+    text-transform: uppercase;
 }
 @media screen and (min-width: 1025px) {
     .inner {
@@ -392,6 +394,7 @@ a#header_link {
     margin-right: 20px;
     font-size: 0;
     line-height: 0;
+    text-transform: uppercase;
 }
 #global_nav ul li:last-of-type {
     margin-right: 0;
@@ -493,6 +496,7 @@ a#header_link {
     letter-spacing: 0.02em;
     font-weight: bold;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 .top h2 {
     font-size: 76px;
@@ -555,6 +559,7 @@ a#header_link {
     outline: none;
     appearance: none;
     cursor: pointer;
+    text-transform: uppercase;
 }
 #audio_control button.active {
     display: none;
@@ -667,6 +672,7 @@ a#header_link {
     font-size: 32px;
     line-height: 1.0em;
     letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 .fight a {
     margin: 20px auto 0;
